@@ -198,7 +198,6 @@ if &t_Co > 255
    hi CursorColumn                ctermbg=236
    hi ColorColumn                 ctermbg=236
 
-   hi Normal       ctermfg=252 ctermbg=234
    hi CursorLine               ctermbg=236   cterm=none
    hi CursorLineNr ctermfg=208               cterm=none
 
