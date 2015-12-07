@@ -96,41 +96,23 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
-if get(g:, 'molokai_original', 0)
-   hi Normal          guifg=#F8F8F2 guibg=#272822
-   hi Comment         guifg=#75715E
-   hi CursorLine                    guibg=#3E3D32
-   hi CursorLineNr    guifg=#FD971F               gui=none
-   hi CursorColumn                  guibg=#3E3D32
-   hi ColorColumn                   guibg=#3B3A32
-   hi LineNr          guifg=#BCBCBC guibg=#3B3A32
-   hi NonText         guifg=#75715E
-   hi SpecialKey      guifg=#75715E
-else
-   hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
-   hi Comment         guifg=#7E8E91
-   hi CursorLine                    guibg=#293739
-   hi CursorLineNr    guifg=#FD971F               gui=none
-   hi CursorColumn                  guibg=#293739
-   hi ColorColumn                   guibg=#232526
-   hi LineNr          guifg=#465457 guibg=#232526
-   hi NonText         guifg=#465457
-   hi SpecialKey      guifg=#465457
-end
+hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
+hi Comment         guifg=#7E8E91
+hi CursorLine                    guibg=#293739
+hi CursorLineNr    guifg=#FD971F               gui=none
+hi CursorColumn                  guibg=#293739
+hi ColorColumn                   guibg=#232526
+hi LineNr          guifg=#465457 guibg=#232526
+hi NonText         guifg=#465457
+hi SpecialKey      guifg=#465457
 
 "
 " Support for 256-color terminal
 "
 if &t_Co > 255
-   if get(g:, 'molokai_original', 0)
-      hi Normal                   ctermbg=234
-      hi CursorLine               ctermbg=235   cterm=none
-      hi CursorLineNr ctermfg=208               cterm=none
-   else
-      hi Normal       ctermfg=252 ctermbg=233
-      hi CursorLine               ctermbg=234   cterm=none
-      hi CursorLineNr ctermfg=208               cterm=none
-   endif
+   hi Normal       ctermfg=252 ctermbg=233
+   hi CursorLine               ctermbg=234   cterm=none
+   hi CursorLineNr ctermfg=208               cterm=none
 
    hi Cursor          ctermfg=16  ctermbg=253
    hi Debug           ctermfg=225               cterm=bold
