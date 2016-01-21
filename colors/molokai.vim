@@ -130,8 +130,9 @@ if &t_Co > 255
    " hi Exception       ctermfg=154               cterm=bold
    hi Exception       ctermfg=118               cterm=bold
 
-   hi FoldColumn      ctermfg=67  ctermbg=16
-   hi Folded          ctermfg=67  ctermbg=16
+   "If 237 is too dark, keep incrementing...
+   hi FoldColumn      ctermfg=237 ctermbg=16
+   hi Folded          ctermfg=237 ctermbg=16
    hi Ignore          ctermfg=244 ctermbg=232
    hi IncSearch       ctermfg=193 ctermbg=16
 
