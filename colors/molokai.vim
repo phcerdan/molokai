@@ -134,7 +134,7 @@ if &t_Co > 255
    hi FoldColumn      ctermfg=242 ctermbg=16
    hi Folded          ctermfg=242 ctermbg=16
 
-   hi Ignore          ctermfg=244 ctermbg=232
+   hi Ignore          ctermfg=244 ctermbg=234
    hi IncSearch       ctermfg=193 ctermbg=16
 
    hi Label           ctermfg=229               cterm=none
@@ -168,7 +168,7 @@ if &t_Co > 255
    hi StatusLineNC    ctermfg=244 ctermbg=232
    hi StorageClass    ctermfg=208
    hi Structure       ctermfg=81
-   hi Todo            ctermfg=231 ctermbg=232   cterm=bold
+   hi Todo            ctermfg=231 ctermbg=234   cterm=bold
 
    hi Typedef         ctermfg=81
    hi Type            ctermfg=81                cterm=none
