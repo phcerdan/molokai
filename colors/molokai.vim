@@ -110,11 +110,13 @@ hi SpecialKey      guifg=#465457
 " Support for 256-color terminal
 "
 if &t_Co > 255
-   hi Normal       ctermfg=252 ctermbg=233
-   hi CursorLine               ctermbg=234   cterm=none
+   hi Normal       ctermfg=252 ctermbg=234
+   hi CursorLine               ctermbg=236   cterm=none
    hi CursorLineNr ctermfg=208               cterm=none
-
+   hi CursorColumn                ctermbg=236
+   hi ColorColumn                 ctermbg=236
    hi Cursor          ctermfg=16  ctermbg=253
+
    hi Debug           ctermfg=225               cterm=bold
    hi Define          ctermfg=81
    hi Delimiter       ctermfg=241
@@ -178,13 +180,6 @@ if &t_Co > 255
    hi VisualNOS                   ctermbg=238
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
    hi WildMenu        ctermfg=81  ctermbg=16
-
-   hi CursorColumn                ctermbg=236
-   hi ColorColumn                 ctermbg=236
-
-   hi Normal       ctermfg=252 ctermbg=234
-   hi CursorLine               ctermbg=236   cterm=none
-   hi CursorLineNr ctermfg=208               cterm=none
 
    hi Boolean         ctermfg=141
    hi Character       ctermfg=222
