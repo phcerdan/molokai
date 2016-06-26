@@ -140,7 +140,7 @@ hi IncSearch       ctermfg=193 ctermbg=16
 hi Label           ctermfg=229               cterm=none
 hi Macro           ctermfg=193
 
-hi MatchParen      ctermfg=233  ctermbg=208 cterm=bold
+hi MatchParen      ctermfg=white ctermbg=208 cterm=bold
 hi ModeMsg         ctermfg=229
 hi MoreMsg         ctermfg=229
 
