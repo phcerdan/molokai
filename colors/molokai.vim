@@ -25,10 +25,17 @@ hi iCursor         guifg=#000000 guibg=#F8F8F0
 hi Debug           guifg=#BCA3A3               gui=bold
 hi Define          guifg=#66D9EF
 hi Delimiter       guifg=#8F8F8F
-hi DiffAdd                       guibg=#13354A
-hi DiffChange      guifg=#89807D guibg=#4C4745
-hi DiffDelete      guifg=#960050 guibg=#1E0010
-hi DiffText                      guibg=#4C4745 gui=italic,bold
+
+" diff (unified)
+hi diffAdded       guifg=#2BFF2B gui=NONE      ctermfg=46  cterm=NONE
+hi diffRemoved     guifg=#FF2B2B gui=NONE      ctermfg=196 cterm=NONE
+hi link diffSubname Normal
+
+" diff (side-by-side)
+hi DiffAdd         guifg=black   guibg=#2BFF2B ctermfg=0   ctermbg=46  gui=NONE cterm=NONE
+hi DiffChange      guifg=white   guibg=#4C4745 ctermfg=255 ctermbg=239 gui=NONE cterm=NONE
+hi DiffDelete      guifg=white   guibg=#FF2B2B ctermfg=255 ctermbg=196 gui=NONE cterm=NONE
+hi DiffText        guifg=#000000 guibg=#ffb733 gui=NONE  ctermfg=000  ctermbg=214  cterm=NONE
 
 hi Directory       guifg=#A6E22E               gui=bold
 hi Error           guifg=#E6DB74 guibg=#1E0010
@@ -118,12 +125,6 @@ hi Cursor          ctermfg=16  ctermbg=253
 hi Debug           ctermfg=225               cterm=bold
 hi Define          ctermfg=81
 hi Delimiter       ctermfg=241
-
-hi DiffAdd                     ctermbg=24
-hi DiffChange      ctermfg=181 ctermbg=239
-hi DiffDelete      ctermfg=162 ctermbg=53
-" hi DiffDelete      ctermfg=125 ctermbg=233
-hi DiffText                    ctermbg=102 cterm=bold
 
 hi Error           ctermfg=219 ctermbg=89
 hi ErrorMsg        ctermfg=199 ctermbg=16    cterm=bold
