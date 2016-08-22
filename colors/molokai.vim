@@ -47,7 +47,6 @@ hi Folded          guifg=#465457 guibg=#000000
 hi Function        guifg=#A6E22E
 hi Identifier      guifg=#FD971F
 hi Ignore          guifg=#808080 guibg=bg
-hi IncSearch       guifg=#C4BE89 guibg=#000000
 
 hi Keyword         guifg=#F92672               gui=bold
 hi Label           guifg=#E6DB74               gui=none
@@ -69,7 +68,11 @@ hi PreCondit       guifg=#A6E22E               gui=bold
 hi PreProc         guifg=#A6E22E
 hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=bold
-hi Search          guifg=#000000 guibg=#FFE792
+hi Search          guifg=#000000 guibg=#FFE792 ctermfg=0   ctermbg=222   cterm=NONE
+hi IncSearch       guifg=#C4BE89 guibg=#000000 ctermfg=193 ctermbg=16
+hi QuickFixLine    guibg=#F92672 ctermbg=197
+
+
 " marks
 hi SignColumn      guifg=#A6E22E guibg=#232526
 hi SpecialChar     guifg=#F92672               gui=bold
@@ -81,7 +84,7 @@ if has("spell")
     hi SpellLocal  guisp=#70F0F0 gui=undercurl
     hi SpellRare   guisp=#FFFFFF gui=undercurl
 endif
-hi Statement       guifg=#F92672               gui=bold
+hi Statement       guifg=#F92672 gui=bold ctermfg=197 cterm=bold
 hi StatusLine      guifg=#455354 guibg=fg
 hi StatusLineNC    guifg=#808080 guibg=#080808
 hi StorageClass    guifg=#FD971F               gui=italic
@@ -136,7 +139,6 @@ hi FoldColumn      ctermfg=242 ctermbg=16
 hi Folded          ctermfg=242 ctermbg=16
 
 hi Ignore          ctermfg=244 ctermbg=234
-hi IncSearch       ctermfg=193 ctermbg=16
 
 hi Label           ctermfg=229               cterm=none
 hi Macro           ctermfg=193
@@ -146,7 +148,6 @@ hi ModeMsg         ctermfg=229
 hi MoreMsg         ctermfg=229
 
 hi Question        ctermfg=81
-hi Search          ctermfg=0   ctermbg=222   cterm=NONE
 
 " marks column
 hi SignColumn      ctermfg=118 ctermbg=235
@@ -192,7 +193,6 @@ hi PreCondit       ctermfg=154               cterm=bold
 hi PreProc         ctermfg=154
 hi Repeat          ctermfg=197               cterm=bold
 
-hi Statement       ctermfg=197               cterm=bold
 hi Tag             ctermfg=197
 hi Title           ctermfg=203
 hi Visual                      ctermbg=238
