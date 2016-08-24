@@ -42,8 +42,11 @@ hi Error           guifg=#E6DB74 guibg=#1E0010
 hi ErrorMsg        guifg=#F92672 guibg=#232526 gui=bold
 hi Exception       guifg=#A6E22E               gui=bold
 hi Float           guifg=#AE81FF
-hi FoldColumn      guifg=#465457 guibg=#000000
-hi Folded          guifg=#465457 guibg=#000000
+
+"If 242 is too dark, keep incrementing...
+hi FoldColumn      guifg=#465457 guibg=#000000 ctermfg=242 ctermbg=16
+hi Folded          guifg=#465457 guibg=NONE    ctermfg=242 ctermbg=NONE
+
 hi Function        guifg=#A6E22E
 hi Identifier      guifg=#FD971F
 hi Ignore          guifg=#808080 guibg=bg
@@ -133,10 +136,6 @@ hi Error           ctermfg=219 ctermbg=89
 hi ErrorMsg        ctermfg=199 ctermbg=16    cterm=bold
 " hi Exception       ctermfg=154               cterm=bold
 hi Exception       ctermfg=118               cterm=bold
-
-"If 242 is too dark, keep incrementing...
-hi FoldColumn      ctermfg=242 ctermbg=16
-hi Folded          ctermfg=242 ctermbg=16
 
 hi Ignore          ctermfg=244 ctermbg=234
 
