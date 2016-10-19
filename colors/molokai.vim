@@ -38,8 +38,10 @@ hi DiffDelete      guifg=white   guibg=#FF2B2B ctermfg=255 ctermbg=196 gui=NONE 
 hi DiffText        guifg=#000000 guibg=#ffb733 gui=NONE  ctermfg=000  ctermbg=214  cterm=NONE
 
 hi Directory       guifg=#A6E22E               gui=bold
-hi Error           guifg=#E6DB74 guibg=#1E0010
-hi ErrorMsg        guifg=#F92672 guibg=#232526 gui=bold
+
+hi Error           guifg=White   guibg=Red                 ctermfg=15 ctermbg=9
+hi ErrorMsg        guifg=White   guibg=Red     gui=bold    ctermfg=15 ctermbg=1 cterm=bold
+
 hi Exception       guifg=#A6E22E               gui=bold
 hi Float           guifg=#AE81FF
 
@@ -132,8 +134,6 @@ hi Debug           ctermfg=225               cterm=bold
 hi Define          ctermfg=81
 hi Delimiter       ctermfg=241
 
-hi Error           ctermfg=219 ctermbg=89
-hi ErrorMsg        ctermfg=199 ctermbg=16    cterm=bold
 " hi Exception       ctermfg=154               cterm=bold
 hi Exception       ctermfg=118               cterm=bold
 
