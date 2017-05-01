@@ -75,7 +75,7 @@ hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=bold
 hi Search          guifg=#000000 guibg=#FFE792 ctermfg=0   ctermbg=222   cterm=NONE
 hi IncSearch       guifg=#C4BE89 guibg=#000000 ctermfg=193 ctermbg=16
-hi QuickFixLine    guibg=#F92672 ctermbg=197
+hi QuickFixLine    guifg==white  guibg=#F92672 ctermfg=white ctermbg=197
 
 
 " marks
