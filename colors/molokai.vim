@@ -56,15 +56,15 @@ hi diffRemoved     guifg=#FF2B2B gui=NONE      ctermfg=196 cterm=NONE
 hi link diffSubname Normal
 
 " diff (side-by-side)
-hi DiffAdd         guifg=black   guibg=#2BFF2B ctermfg=0   ctermbg=46  gui=NONE cterm=NONE
-hi DiffChange      guifg=white   guibg=#4C4745 ctermfg=255 ctermbg=239 gui=NONE cterm=NONE
-hi DiffDelete      guifg=white   guibg=#FF2B2B ctermfg=255 ctermbg=196 gui=NONE cterm=NONE
+hi DiffAdd         guifg=#000000 guibg=#2BFF2B ctermfg=0   ctermbg=46  gui=NONE cterm=NONE
+hi DiffChange      guifg=#FFFFFF guibg=#4C4745 ctermfg=255 ctermbg=239 gui=NONE cterm=NONE
+hi DiffDelete      guifg=#FFFFFF guibg=#FF2B2B ctermfg=255 ctermbg=196 gui=NONE cterm=NONE
 hi DiffText        guifg=#000000 guibg=#ffb733 gui=NONE  ctermfg=000  ctermbg=214  cterm=NONE
 
 hi Directory       guifg=#A6E22E               gui=bold
 
-hi Error           guifg=White   guibg=Red                 ctermfg=15 ctermbg=9
-hi ErrorMsg        guifg=White   guibg=Red     gui=bold    ctermfg=15 ctermbg=1 cterm=bold
+hi Error           guifg=#FFFFFF   guibg=Red                 ctermfg=15 ctermbg=9
+hi ErrorMsg        guifg=#FFFFFF   guibg=Red     gui=bold    ctermfg=15 ctermbg=1 cterm=bold
 
 hi Exception       guifg=#A6E22E               gui=bold
 hi Float           guifg=#AE81FF
@@ -88,9 +88,9 @@ hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#F92672
 
 " completion/popup menu
-hi Pmenu           guifg=white   guibg=#000000 ctermfg=255  ctermbg=16
-hi PmenuSel        guifg=white   guibg=#0a9dff gui=NONE ctermfg=255 ctermbg=242 cterm=NONE
-hi PmenuSbar                     guibg=#857f78             ctermbg=232
+hi Pmenu           guifg=#FFFFFF   guibg=#000000 ctermfg=255  ctermbg=16
+hi PmenuSel        guifg=#FFFFFF   guibg=#0a9dff gui=NONE ctermfg=255 ctermbg=242 cterm=NONE
+hi PmenuSbar                       guibg=#857f78             ctermbg=232
 hi PmenuThumb      guifg=#242321               ctermfg=81
 
 hi PreCondit       guifg=#A6E22E               gui=bold
@@ -99,7 +99,7 @@ hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=bold
 hi Search          guifg=#000000 guibg=#FFE792 ctermfg=0   ctermbg=222   cterm=NONE
 hi IncSearch       guifg=#C4BE89 guibg=#000000 ctermfg=193 ctermbg=16
-hi QuickFixLine    guifg==white  guibg=#F92672 ctermfg=255 ctermbg=197
+hi QuickFixLine    guifg=#FFFFFF guibg=#F92672 ctermfg=255 ctermbg=197
 
 
 " marks
