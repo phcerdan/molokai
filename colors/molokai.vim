@@ -1,12 +1,36 @@
 " Vim color file
 "
-" Author: Tomas Restrepo <tomas@winterdom.com>
-" https://github.com/tomasr/molokai
+" Maintainer: Justin M. Keyes <justinkz@gmail.com>
+" Previous Maintainer: Tomas Restrepo <tomas@winterdom.com>
 "
-" Note: Based on the Monokai theme for TextMate
-" by Wimer Hazenberg and its darker variant
-" by Hamish Stuart Macpherson
+" Based on the Monokai theme for TextMate by Wimer Hazenberg and its darker
+" variant by Hamish Stuart Macpherson.
 "
+" monokai theme copyright Wimer Hazenberg.
+"
+" molokai.vim source code is licensed as follows:
+"
+" The MIT License (MIT)
+"
+" Copyright (c) 2011 Tomas Restrepo
+"
+" Permission is hereby granted, free of charge, to any person obtaining a copy
+" of this software and associated documentation files (the "Software"), to deal
+" in the Software without restriction, including without limitation the rights
+" to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+" copies of the Software, and to permit persons to whom the Software is
+" furnished to do so, subject to the following conditions:
+"
+" The above copyright notice and this permission notice shall be included in
+" all copies or substantial portions of the Software.
+"
+" THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+" IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+" FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+" AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+" LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+" OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+" THE SOFTWARE.
 
 hi clear
 if exists("syntax_on")
@@ -75,7 +99,7 @@ hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=bold
 hi Search          guifg=#000000 guibg=#FFE792 ctermfg=0   ctermbg=222   cterm=NONE
 hi IncSearch       guifg=#C4BE89 guibg=#000000 ctermfg=193 ctermbg=16
-hi QuickFixLine    guifg==white  guibg=#F92672 ctermfg=white ctermbg=197
+hi QuickFixLine    guifg==white  guibg=#F92672 ctermfg=255 ctermbg=197
 
 
 " marks
@@ -83,12 +107,12 @@ hi SignColumn      guifg=#A6E22E guibg=#232526
 hi SpecialChar     guifg=#F92672               gui=bold
 hi SpecialComment  guifg=#7E8E91               gui=bold
 hi Special         guifg=#66D9EF guibg=bg      gui=italic
-if has("spell")
-    hi SpellBad    guisp=#FF0000 gui=undercurl
-    hi SpellCap    guisp=#7070F0 gui=undercurl
-    hi SpellLocal  guisp=#70F0F0 gui=undercurl
-    hi SpellRare   guisp=#FFFFFF gui=undercurl
-endif
+
+hi SpellBad    guisp=#FF0000 gui=undercurl ctermfg=15   ctermbg=9
+hi SpellCap    guisp=#7070F0 gui=undercurl              ctermbg=17
+hi SpellLocal  guisp=#70F0F0 gui=undercurl              ctermbg=17
+hi SpellRare   guisp=#FFFFFF gui=undercurl ctermfg=none ctermbg=none  cterm=reverse
+
 hi Statement       guifg=#F92672 gui=bold ctermfg=197 cterm=bold
 hi StatusLine      guifg=#455354 guibg=fg
 hi StatusLineNC    guifg=#808080 guibg=#080808
@@ -152,12 +176,6 @@ hi SignColumn      ctermfg=118 ctermbg=235
 hi SpecialChar     ctermfg=161               cterm=bold
 hi SpecialComment  ctermfg=245               cterm=bold
 hi Special         ctermfg=81
-if has("spell")
-   hi SpellBad                ctermbg=52
-   hi SpellCap                ctermbg=17
-   hi SpellLocal              ctermbg=17
-   hi SpellRare  ctermfg=none ctermbg=none  cterm=reverse
-endif
 hi StatusLine      ctermfg=238 ctermbg=253
 hi StatusLineNC    ctermfg=244 ctermbg=232
 hi StorageClass    ctermfg=208
