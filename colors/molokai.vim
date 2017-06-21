@@ -80,7 +80,7 @@ hi Ignore          guifg=#808080 guibg=bg
 hi Keyword         guifg=#F92672               gui=bold
 hi Label           guifg=#E6DB74               gui=none
 hi Macro           guifg=#C4BE89               gui=italic
-hi SpecialKey      guifg=#66D9EF               gui=italic
+hi SpecialKey      guifg=#465457               gui=italic ctermfg=242
 
 hi MatchParen      guifg=#000000 guibg=#FD971F gui=NONE ctermfg=000 ctermbg=208 cterm=NONE
 hi ModeMsg         guifg=#E6DB74
@@ -141,9 +141,8 @@ hi CursorLine                    guibg=#293739
 hi CursorLineNr    guifg=#FD971F               gui=none
 hi CursorColumn                  guibg=#293739
 hi ColorColumn                   guibg=#232526
-hi LineNr          guifg=#465457 guibg=#232526
+hi LineNr          guifg=#465457 guibg=#232526 ctermfg=240 ctermbg=235
 hi NonText         guifg=#465457
-hi SpecialKey      guifg=#465457
 
 " cterm ...............................
 
@@ -214,9 +213,7 @@ hi Title           ctermfg=203
 hi Visual                      ctermbg=238
 
 hi Comment         ctermfg=244
-hi LineNr          ctermfg=239 ctermbg=235
 hi NonText         ctermfg=239
-hi SpecialKey      ctermfg=239
 
 " Must be at the end, because of ctermbg=234 bug.
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
