@@ -51,14 +51,14 @@ hi Define          guifg=#66D9EF
 hi Delimiter       guifg=#8F8F8F
 
 " diff (unified)
-hi diffAdded       guifg=#2BFF2B gui=NONE      ctermfg=46  cterm=NONE
+hi diffAdded       guifg=#2BFF2B gui=NONE      ctermfg=47  cterm=NONE
 hi diffRemoved     guifg=#FF2B2B gui=NONE      ctermfg=196 cterm=NONE
 hi link diffSubname Normal
 
 " diff (side-by-side)
-hi DiffAdd         guifg=#000000 guibg=#2BFF2B ctermfg=0   ctermbg=46  gui=NONE cterm=NONE
+hi DiffAdd         guifg=#000000 guibg=#2BFF2B ctermfg=0   ctermbg=47  gui=NONE cterm=NONE
 hi DiffChange      guifg=#FFFFFF guibg=#4C4745 ctermfg=255 ctermbg=239 gui=NONE cterm=NONE
-hi DiffDelete      guifg=#FFFFFF guibg=#FF2B2B ctermfg=255 ctermbg=196 gui=NONE cterm=NONE
+hi DiffDelete      guifg=#E06C75 guibg=NONE    ctermfg=196 ctermbg=NONE gui=NONE cterm=NONE
 hi DiffText        guifg=#000000 guibg=#ffb733 gui=NONE  ctermfg=000  ctermbg=214  cterm=NONE
 
 hi Directory       guifg=#A6E22E               gui=bold
@@ -137,8 +137,8 @@ hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
 hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
 hi Comment         guifg=#7E8E91
-hi CursorLine                    guibg=#293739
-hi CursorLineNr    guifg=#FD971F               gui=none
+hi CursorLine                    guibg=#293739 ctermbg=236   cterm=none
+hi CursorLineNr    guifg=#FD971F               gui=none ctermfg=208 cterm=none
 hi CursorColumn                  guibg=#293739
 hi ColorColumn                   guibg=#232526
 hi LineNr          guifg=#465457 guibg=#232526 ctermfg=240 ctermbg=235
@@ -147,8 +147,6 @@ hi NonText         guifg=#465457
 " cterm ...............................
 
 hi Normal       ctermfg=252 ctermbg=234
-hi CursorLine               ctermbg=236   cterm=none
-hi CursorLineNr ctermfg=208               cterm=none
 hi CursorColumn                ctermbg=236
 hi ColorColumn                 ctermbg=236
 hi Cursor          ctermfg=16  ctermbg=253
