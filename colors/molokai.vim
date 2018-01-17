@@ -51,20 +51,22 @@ hi Define          guifg=#66D9EF                          ctermfg=81
 hi Delimiter       guifg=#8F8F8F                          ctermfg=241
 
 " diff (unified)
-hi diffAdded       guifg=#2BFF2B gui=NONE      ctermfg=47  cterm=NONE
-hi diffRemoved     guifg=#FF2B2B gui=NONE      ctermfg=196 cterm=NONE
+hi diffAdded       guifg=#2BFF2B gui=NONE      ctermfg=46  cterm=NONE
+hi diffRemoved     guifg=#FF2B2B gui=NONE      ctermfg=203 cterm=NONE
 hi link diffSubname Normal
 
 " diff (side-by-side)
 hi DiffAdd         guifg=#000000 guibg=#2BFF2B ctermfg=0   ctermbg=47  gui=NONE cterm=NONE
 hi DiffChange      guifg=#FFFFFF guibg=#4C4745 ctermfg=255 ctermbg=239 gui=NONE cterm=NONE
 hi DiffDelete      guifg=#E06C75 guibg=NONE    ctermfg=196 ctermbg=NONE gui=NONE cterm=NONE
-hi DiffText        guifg=#000000 guibg=#ffb733 gui=NONE  ctermfg=000  ctermbg=214  cterm=NONE
+hi DiffText        guifg=#000000 guibg=#ffb733 gui=NONE  ctermfg=000  ctermbg=215  cterm=NONE
 
 hi Directory       guifg=#A6E22E               gui=bold        ctermfg=154               cterm=bold
 
-hi Error           guifg=#FFFFFF   guibg=Red                 ctermfg=15 ctermbg=9
-hi ErrorMsg        guifg=#FFFFFF   guibg=Red     gui=bold    ctermfg=15 ctermbg=1 cterm=bold
+hi Error           ctermbg=NONE ctermfg=255 guibg=#e27878 guifg=white
+hi ErrorMsg        ctermfg=203 ctermbg=NONE guifg=#e27878 guibg=#161821
+" hi Error           guifg=#FFFFFF   guibg=Red                 ctermfg=15 ctermbg=9
+" hi ErrorMsg        guifg=#FFFFFF   guibg=Red     gui=bold    ctermfg=15 ctermbg=1 cterm=bold
 
 " hi Exception       ctermfg=118               cterm=bold
 hi Exception       guifg=#A6E22E               gui=bold        ctermfg=154               cterm=bold
