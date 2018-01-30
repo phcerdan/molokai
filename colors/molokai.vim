@@ -64,9 +64,8 @@ hi DiffText        guifg=#000000 guibg=#ffb733 gui=NONE  ctermfg=000  ctermbg=21
 hi Directory       guifg=#A6E22E               gui=bold        ctermfg=154               cterm=bold
 
 hi Error           ctermbg=NONE ctermfg=255 guibg=#e27878 guifg=white
+hi Error           guifg=#FFFFFF   guibg=Red   ctermfg=15 ctermbg=9
 hi ErrorMsg        ctermfg=203 ctermbg=NONE guifg=#e27878 guibg=#161821
-" hi Error           guifg=#FFFFFF   guibg=Red                 ctermfg=15 ctermbg=9
-" hi ErrorMsg        guifg=#FFFFFF   guibg=Red     gui=bold    ctermfg=15 ctermbg=1 cterm=bold
 
 " hi Exception       ctermfg=118               cterm=bold
 hi Exception       guifg=#A6E22E               gui=bold        ctermfg=154               cterm=bold
