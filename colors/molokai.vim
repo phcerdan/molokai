@@ -85,7 +85,7 @@ hi Label           guifg=#E6DB74               gui=none              ctermfg=229
 hi Macro           guifg=#C4BE89               gui=italic            ctermfg=193
 hi SpecialKey      guifg=#465457               gui=italic            ctermfg=242
 
-hi MatchParen      guifg=#000000 guibg=#FD971F gui=NONE ctermfg=000 ctermbg=208 cterm=NONE
+hi MatchParen      guifg=#FD971F guibg=#000000 gui=NONE ctermfg=208 ctermbg=000 cterm=NONE
 hi ModeMsg         guifg=#E6DB74          ctermfg=229
 hi MoreMsg         guifg=#E6DB74          ctermfg=229
 hi Operator        guifg=#F92672          ctermfg=197
